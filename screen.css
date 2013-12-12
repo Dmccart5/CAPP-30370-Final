@@ -28,7 +28,9 @@ ul {
 	}	
 	
 header {
-	text-align:center
+	text-align:left;
+	margin:10px;
+	color:#ffffff;
 	
 	}
 	
@@ -52,8 +54,8 @@ nav ul {
 
 nav a {
 	display:block;
-	padding:1em;
-	border:3px solid #D4AF37;
+	padding:8px;
+	border:2px solid #D4AF37;
 	
 	
 	}
