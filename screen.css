@@ -1,0 +1,84 @@
+@viewport {width:device-width; zoom:1;}
+
+body {
+	font-size:100%; 
+	font-family:Helvetica, Arial, sans-serif;
+	padding: 0em;
+	
+	}
+	
+img {
+	max-width:100%
+	
+	}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family:Georgia, Times, serif;
+	
+	}
+	
+p {
+	line-height:150%
+	
+	}
+	
+ul {
+	line-height:150%
+	
+	}	
+	
+header {
+	text-align:center
+	
+	}
+	
+footer {
+	clear:left
+	
+	}
+
+nav {
+	font-weight:bold;
+	font-size:125%;
+		
+		}
+			
+nav ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+	
+	}
+
+nav a {
+	display:block;
+	padding:1em;
+	border:3px solid #D4AF37;
+	
+	
+	}
+
+	
+  
+@media only screen and (min-width:400px) {
+
+	nav {
+		float:left;
+		width:19%
+	
+		}
+		
+	main {
+		float:right;
+		width:75%
+	
+		}
+	
+	}
+		
+
+@media only screen and (min-width:800px) {
+    img {float:right; max-width:40%; margin:0 0 1em 2em;}
+    
+		}
+		
