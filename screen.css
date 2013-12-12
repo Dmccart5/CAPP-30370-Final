@@ -8,7 +8,8 @@ body {
 	}
 	
 img {
-	max-width:100%
+	max-width:100%;
+	padding:1em 0;
 	
 	}
 
@@ -35,7 +36,7 @@ header {
 	}
 	
 footer {
-	clear:left
+	clear:both
 	
 	}
 
@@ -80,7 +81,7 @@ nav a {
 		
 
 @media only screen and (min-width:800px) {
-    img {float:right; max-width:40%; margin:0 0 1em 2em;}
+    img {float:right; max-width:100%; margin:0 0 1em 2em;}
     
 		}
 		
