@@ -17,6 +17,7 @@ img {
 h1, h2, h3, h4, h5, h6 {
 	font-family:Georgia, Times, serif;
 	color:#ffffff;
+	line-height:1em;
 	
 	}
 
@@ -27,28 +28,28 @@ p {
 	}
 	
 ul {
-	line-height:150%
+	line-height:125%
 	
 	}	
 	
 header {
-	text-align:left;
-	padding:8px;
+	text-align:center;
+	padding:0em;
 	color:#ffffff;
 	display:block;
-	border:2px solid #D4AF37;
+	border:2px solid #dcb439;
 	
 	}
 	
 footer {
-	clear:both
+	font-size:75%;
+	clear:both;
 	
 	}
 
 nav {
 	font-weight:bold;
 	font-size:125%;
-	color:#002b5b;
 		
 		}
 			
@@ -62,27 +63,24 @@ nav ul {
 nav a {
 	display:block;
 	padding:8px;
-	border:2px solid #D4AF37;
-	background: -webkit-linear-gradient(top, #fefcea 0%,#dcb439 98%);
-	color:#002b5b
+	border:2px solid #002b5b;
+	background: -webkit-linear-gradient(top, #fefcea 0%,#dcb439 100%);
 	
 	}
 	
-nav {
+nav a:link, nav a:visited {
 	text-decoration:none;
 	color:#002b5b;
-	}	
-	
-#header a:link, a:visited {
+	}
+
+header a:link, header a:visited {
 	text-decoration:none;
 	color:#ffffff;
 	}
 	
-#footer a:link, a:visited {
-	text-decoration:underline;
+footer a:link, footer a:visited {
 	color:#dcb439;
 	}
-
 	 
 @media only screen and (min-width:400px) {
 
