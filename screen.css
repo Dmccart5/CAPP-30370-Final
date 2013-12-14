@@ -121,6 +121,10 @@ header a:link, header a:visited {
 	color:#ffffff;
 	}
 	
+main a:link, main a:visited {
+	color:#ffffff;
+	}
+	
 footer a:link, footer a:visited {
 	color:#dcb439;
 	}
@@ -138,6 +142,16 @@ footer a:link, footer a:visited {
 #twitter {
 	clear:left;
 	float:right;
+	}
+
+.alignleft {
+  float:left;
+  margin:0 20px 10px 0;
+  width:100%
+	}
+
+.bio {
+	clear:left;
 	}
 
 @media only screen and (min-width:700px) {
@@ -201,6 +215,10 @@ footer a:link, footer a:visited {
 		float:right;
 		}
 	
+	.alignleft {
+ 		 width:40%
+		}
+		
 	}
 		
 
