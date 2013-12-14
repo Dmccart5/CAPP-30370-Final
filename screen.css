@@ -18,8 +18,15 @@ body {
 img {
 	max-width:100%;
 	padding:1em 0;
-	
 	}
+	
+.centeredImage
+    {
+    text-align:center;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:0px;
+    }	
 
 h1, h2, h3, h4, h5, h6 {
 	font-family:Georgia, Times, serif;
@@ -172,6 +179,17 @@ footer a:link, footer a:visited {
 		float:right;
 		width:66%
 		}
+		
+ 	.three_col {
+   		float:left;
+   		width:32%;
+   		margin-right: 2%
+   		}
+						
+	.three_col_r {
+		float:right;
+		margin:0;
+		}
 
 	#footer_left {
 		clear:both;
@@ -208,7 +226,7 @@ footer a:link, footer a:visited {
    		float:none;
    		width:100%;
    		}
-   		
+			
    	#home_img {
    		width:1000px;
    		}
