@@ -1,6 +1,6 @@
 /*    ON LOAD    */
 
-console.log('Width: ',$(window).width())
+console.log('Width: ',$(window).width());
 
 
 
@@ -16,16 +16,20 @@ $(window).resize( function() {
     
 /*    ON CLICK    */
 
-$("img").on("click", function() {
+$(document).on('click', 'img', function() {
 
-	var $alt = $("img").attr("alt")
-	console.log(alt);
+	var $this = $(this);
+	console.log('Alt: ', $this.attr("alt"));
+	console.log('Width: ', $this.width());
+	console.log('Height: ', $this.height());
 	
 	});
 	
-$("h1,h2,h3,h4,h5,h6").on("click", function() {
+$(document).on('click', 'h1,h2,h3,h4,h5,h6', function() {
 
-	var $text = $("img").attr("alt")
-	console.log(alt);
+    var $this = $(this);
+    console.log('Text: ', $this.text());
+    console.log('Color: ', $this.css('color'));
+    console.log('Font Size: ', $this.css('font-size'));
 	
 	});
