@@ -34,4 +34,9 @@ $(document).on('click', 'h1,h2,h3,h4,h5,h6', function() {
 	
 	});
 
+$('#logo2logo').on('click', function() {
+	$(this).animate({
+		left: "+=100"
+		}, 1000);
+	});
 	
