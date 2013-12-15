@@ -1,7 +1,8 @@
 CAPP-30370-Final
 ================
 
-Web Development Final Project
+Dan McCarthy
+------------
 
 
 PURPOSE & GOALS
