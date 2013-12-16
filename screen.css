@@ -144,6 +144,10 @@ footer a:link, footer a:visited {
 	display:none;
 	}
 
+#logo2button {
+	float:right;
+	}
+	
 #twitter {
 	clear:left;
 	float:right;
