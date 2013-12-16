@@ -54,7 +54,7 @@ The background image is located on the Contact Us page [contact_us.html]. While 
 JQUERY INTERACTION
 ------------------
 
-
+Within the desktop version of the Home page [index.html], the user can click a button to fade in and fade out the logo. This is done using a simple fadeToggle() command in jQuery.
 
 
 
